@@ -1,3 +1,4 @@
+from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QWidget, QPushButton, QApplication, QMainWindow
 from PyQt5.QtGui import *
 import random
