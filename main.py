@@ -2,8 +2,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QWidget, QPushButton, QApplication, QMainWindow
 from PyQt5.QtGui import *
 from UI import Ui_MainWindow
-import random
 import sys
+import random
 
 
 class Window(QMainWindow, Ui_MainWindow):
