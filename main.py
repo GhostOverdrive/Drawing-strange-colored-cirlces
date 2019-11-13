@@ -42,8 +42,8 @@ class Window(QMainWindow, Ui_MainWindow):
         qp.end()
 
     def draw(self):
-        self.place = random.randint(50, 500), random.randint(50, 500),\
-                     random.randint(100, 250), random.randint(100, 250)
+        rad = random.randint(50, 500)
+        self.place = rad, rad, random.randint(100, 250), random.randint(100, 250)
         self.update()
 
 
